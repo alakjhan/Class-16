@@ -1,0 +1,83 @@
+.header{
+
+  background-color:rgb(15, 4, 110) ;
+}
+.header-logo img{
+  width: 80px;
+}
+.praimary-menu ul{
+  text-align: right;
+}
+.praimary-menu ul li{
+  display: inline-block;
+  margin-top: 4px;
+  margin: -3px;
+}
+.praimary-menu ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px ;
+  margin: 10px 1px -5px 0px;
+  font-size: 15px;
+  transition: 1s;
+  line-height: 50px;
+  border-right: 1px solid white;
+}
+.praimary-menu ul li a:hover{
+  background-color: rgb(90, 75, 233) ;
+}
+.banner{
+  text-align: center;
+  background-image: url(./intro-bg.jpg);
+background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0px;
+}
+.banner-text h1{
+  color: white;
+  
+
+}
+.banner-text h5{
+  color: white;
+
+}
+
+.banner-text a{
+  text-decoration: none;
+  color: white;
+  padding: 12px 16px;
+  background-color: blue;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 4px;
+  z-index:1;
+}
+  
+.banner-text a::before{content: "";
+  height: 100%;
+  width: 0%;
+  background-color: rgb(17, 202, 48);
+  position: absolute;
+ 
+  top: 0px;
+  left: 0px;
+  z-index:1;
+  transition: .5s;
+ 
+  border-radius: 4px;
+}
+
+.banner-text a:hover::before{
+  width: 100%;
+
+ 
+}
+.banner2{
+  padding: 40px 0px;
+  background-color: rgb(142, 142, 238);
+}
+.card-body{
+  text-align: center;
+}
